@@ -1,0 +1,57 @@
+// news item component style
+.news-item-card {
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.news-title {
+  font-size: 1.2rem;
+  margin: 6px, ;  
+  justify-content: space-between;
+  color: var(--color, #404040);
+
+}
+
+.news-description {
+  font-size: 1rem;
+  margin:  6px;
+  color: var(--color, #404040);
+}
+
+.news-button {
+  color: var(--color, #404040);
+  margin: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Media Query for Phone */
+@media (max-width: 576px) {
+  .news-item-card {
+    margin: 4px;
+    padding: 12px;
+  
+  }
+
+  .news-title {
+    font-size: 1rem;
+  }
+
+  .news-description {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+  }
+
+  .news-button {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    // font-weight: bolder;
+    
+  }
+}
