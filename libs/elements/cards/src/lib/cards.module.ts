@@ -15,12 +15,12 @@ import { ElewaNewsItemCardComponent } from './elewa-news-item-card/elewa-news-it
     ElewaWebsitePriceItemCardComponent,
     ElewaProjectItemCardComponent,
     ElewaNewsItemCardComponent,
-    ElewaNewsItemCardComponent,
   ],
   exports: [
     ElewaInfoCardComponent,
     ElewaWebsitePriceItemCardComponent,
     ElewaProjectItemCardComponent,
+    ElewaNewsItemCardComponent,
   ],
 })
 export class CardsModule {}
